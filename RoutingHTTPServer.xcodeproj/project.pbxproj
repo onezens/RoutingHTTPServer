@@ -148,7 +148,6 @@
 		EE158DC81CBD575500A3E3F0 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE158C7F1CBD55AA00A3E3F0 /* ContextFilterLogFormatter.m */; };
 		EE158DC91CBD575500A3E3F0 /* DispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158C801CBD55AA00A3E3F0 /* DispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		EE158DCA1CBD575500A3E3F0 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE158C811CBD55AA00A3E3F0 /* DispatchQueueLogFormatter.m */; };
-		EE158DCC1CBD57B000A3E3F0 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE158DCB1CBD57B000A3E3F0 /* libxml2.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -226,7 +225,6 @@
 		EE158C8F1CBD55AA00A3E3F0 /* RoutingHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutingHTTPServer.m; sourceTree = "<group>"; };
 		EE158D761CBD563C00A3E3F0 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		EE158D7D1CBD56C400A3E3F0 /* RoutingHttpServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoutingHttpServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE158DCB1CBD57B000A3E3F0 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,7 +240,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE158DCC1CBD57B000A3E3F0 /* libxml2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +276,6 @@
 		EE158B751CBD55A900A3E3F0 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				EE158DCB1CBD57B000A3E3F0 /* libxml2.tbd */,
 				EE158D761CBD563C00A3E3F0 /* libxml2.tbd */,
 				EE158B761CBD55A900A3E3F0 /* CocoaHTTPServer */,
 			);
