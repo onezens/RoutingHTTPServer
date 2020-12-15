@@ -1,7 +1,17 @@
 #import <Foundation/Foundation.h>
-#import "HTTPServer.h"
-#import "RouteRequest.h"
-#import "RouteResponse.h"
+
+//! Project version number for Peertalk.
+FOUNDATION_EXPORT double RoutingHTTPServerVersionNumber;
+
+//! Project version string for Peertalk.
+FOUNDATION_EXPORT const unsigned char RoutingHTTPServerVersionString[];
+
+#import <RoutingHTTPServer/HTTPServer.h>
+#import <RoutingHTTPServer/HTTPConnection.h>
+#import <RoutingHTTPServer/HTTPResponse.h>
+#import <RoutingHTTPServer/RouteResponse.h>
+#import <RoutingHTTPServer/RouteRequest.h>
+#import <RoutingHTTPServer/RoutingConnection.h>
 
 typedef void (^RequestHandler)(RouteRequest *request, RouteResponse *response);
 
