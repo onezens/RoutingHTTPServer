@@ -279,7 +279,7 @@
 				EE158D761CBD563C00A3E3F0 /* libxml2.tbd */,
 				EE158B761CBD55A900A3E3F0 /* CocoaHTTPServer */,
 			);
-			path = External;
+			name = External;
 			sourceTree = SOURCE_ROOT;
 		};
 		EE158B761CBD55A900A3E3F0 /* CocoaHTTPServer */ = {
